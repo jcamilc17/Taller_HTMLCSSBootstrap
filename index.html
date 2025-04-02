@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banda Favorita</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background-color: #809bce;
+            font-family: Tahoma, sans-serif;
+        }
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Arial Black', sans-serif;
+            color: #eceff3;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }
+        header {
+            background-color: #003559;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #eceff3;
+            position: relative;
+        }
+        .highlight {
+            color: #eceff3;
+            font-weight: bold;
+        }
+        .social-icons {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+        .social-icons a {
+            color: #eceff3;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #d3e3f8;
+        }
+        .custom-text {
+            font-size: 19px;
+            color: #eceff3;
+        }
+        a {
+            color: #0056b3;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 2px solid #0056b3;
+        }
+        a:hover {
+            color: #d3e3f8;
+            border-bottom: 2px solid #003559;
+        }
+        /* Estilo de los contenedores */
+        .bordered-container {
+            border: 3px solid #eceff3;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #003559;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        /* Bordes para la lista */
+        .list-group-item {
+            background-color: #e1ecf7;
+            color: #002244;
+            border: 2px solid #0056b3;
+        }
+        /* Bordes a las imágenes de los álbumes */
+        .album-img {
+            border: 3px solid #0056b3;
+            border-radius: 8px;
+            padding: 5px;
+            background-color: white;
+        }
+        /* Botón de suscripción */
+        .btn-primary {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .btn-primary:hover {
+            background-color: #003559;
+            border-color: #003559;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <header class="text-center mb-4">
+            <h1 class="title">Mi Banda Favorita - Soda Stereo</h1>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/sodastereo/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/user/sodastereo" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp?si=ieIU2h4mThCPDbwQcEA79A&nd=1&dlsi=7fc77b6ab7ce410e#login" target="_blank"><i class="fab fa-spotify"></i></a>
+            </div>
+        </header>
+        
+        <div class="row">
+            <!-- Sección de imágenes -->
+            <div class="col-md-6 bordered-container">
+                <div class="row">
+                    <div class="col-5 mb-3">
+                        <img src="Album_DobleVida.png" class="img-fluid album-img" alt="Doble Vida">
+                    </div>
+                    <div class="col-5 mb-3">
+                        <img src="Album_Signos.png" class="img-fluid album-img" alt="Signos">
+                    </div>
+                    <div class="col-5 mb-3">
+                        <img src="Album_CancionAnimal.png" class="img-fluid album-img" alt="Canción Animal">
+                    </div>
+                    <div class="col-5">
+                        <img src="Album_NadaPersonal.png" class="img-fluid album-img" alt="Nada Personal">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de información y suscripción -->
+            <div class="col-md-6 d-flex align-items-center flex-column text-center bordered-container">
+                <p class="custom-text">Soda Stereo fue una banda de rock argentina formada en 1982 originalmente por el cantante y guitarrista Gustavo Cerati, 
+                    el bajista Zeta Bosio y el baterista Charly Alberti. Es considerada ampliamente por la crítica especializada como 
+                    la banda más importante, popular e influyente del rock en español.</p>
+                <p class="custom-text">
+                    Llenaba estadios igual en Miami que en Buenos Aires. Y para latinoamericanos de todas partes, 
+                    sus canciones se convirtieron en himnos generacionales. Soda Stereo fue una banda que trajo un sonido, 
+                    una actitud y una puesta en escena distintas. Que logró, a través de la popularidad y el talento, ampliar el espectro de influencias del rock 
+                    en la música latinoamericana, siendo primariamente parte de los pioneros del rock en español.
+                </p>
+                <p class="custom-text">
+                    Para conocer más sobre ellos, visita su página oficial: 
+                    <a href="https://sodastereo.com" target="_blank">Página Oficial.</a> 
+                    Y para tener más información sobre Soda Stereo, suscríbete a nuestro Club de Fans!
+                </p>
+                
+            </div>
+        </div>
+
+        <!-- Discografía y suscripción: -->
+        <div class="row mt-4">
+            <!-- Discografía -->
+            <div class="col-md-6 bordered-container">
+                <h3 class="highlight">Discografía Notable:</h3>
+             <ul class="list-group">
+                    <li class="list-group-item"><a href="https://youtu.be/AVEDgT_lG60?si=a8p4MPejKBF4Nh9D" target="_blank">En La Ciudad De La Furia</a> </li>
+                    <li class="list-group-item"><a href="https://youtu.be/ZNzYr4U7Zs8?si=8u5mbe-lw_wi-d-0" target="_blank">Cuando Pase El Temblor</a></li>
+                    <li class="list-group-item"><a href="https://youtu.be/LalPz4lIZYk?si=4e-KjE_SYJwNBwGh" target="_blank">Persiana Americana</a></li>
+            <li class="list-group-item"><a href="https://youtu.be/ko24BZXdK8c?si=S-pjtwM0I1CFRxWU" target="_blank">Nada Personal</a></li>
+                </ul>
+            </div>
+    
+            <!-- Suscripción -->
+            <div class="col-md-6 bordered-container text-center">
+                <h3 class="highlight">SUSCRIPCIÓN</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="highlight">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" placeholder="nombre.apellido@email.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
