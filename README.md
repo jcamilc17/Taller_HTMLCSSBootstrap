@@ -33,7 +33,3 @@ Su diseño es responsivo y se adapta a distintos tamaños de pantalla.
 - Implementación de componentes como tarjetas (`cards`) y formularios, aprovechando las clases predefinidas de Bootstrap.  
 - Utilización de clases de espaciado (`mb-4`, `my-5`, etc.) para controlar márgenes y separar elementos visualmente.  
 
----
-
-Si quieres ver el código o contribuir, revisa el repositorio en:  
-📌 [GitHub - Taller_HTMLCSSBootstrap](https://github.com/jcamilc17/Taller_HTMLCSSBootstrap)  
