@@ -2,8 +2,6 @@
 
 **Autor:** Juan Camilo Caldas - 202322445  
 
-Esta página web se diseñó usando recursos de [Flaticon](https://www.flaticon.com/).  
-
 ---
 
 ## 📌 Vista Previa  
