@@ -3,6 +3,9 @@
 **Autor:** Juan Camilo Caldas - 202322445  
 
 ---
+## 📌 Layout de planeación  
+![Vista previa](https://raw.githubusercontent.com/jcamilc17/Taller_HTMLCSSBootstrap/main/Layout_Pagina.png)  
+---
 
 ## 📌 Vista Previa  
 ![Vista previa](https://raw.githubusercontent.com/jcamilc17/Taller_HTMLCSSBootstrap/main/Imagen_Pagina.png)  
